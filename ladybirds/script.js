@@ -11,7 +11,7 @@ let gameFrame = 0;
 class Enemy{
   constructor(){
     this.image = new Image();
-    this.image.src = 'img/ladybird_sprite_4pics.png';
+    this.image.src = 'img/ladybird_sprite_4_frame.png';
     this.x = Math.random() * canvas.width;
     this.y = Math.random() * canvas.height;
     this.speed = Math.random() * 4 - 2; // -2 < x < 2
